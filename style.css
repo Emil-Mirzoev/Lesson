@@ -174,19 +174,19 @@ span {
 }
 
 .footer-top_information-item:nth-child(1) a::before {
-   background-image: url(/img/Telephone.svg);
+   background-image: url(./img/Telephone.svg);
 }
 
 .footer-top_information-item:nth-child(2) a::before {
-    background-image: url(/img/Mail.svg);
+    background-image: url(./img/Mail.svg);
 }
 
 .footer-top_information-item:nth-child(3) a::before {
-    background-image: url(/img/Address.svg);
+    background-image: url(./img/Address.svg);
 }
 
 .footer-top_information-item:nth-child(4) a::before {
-    background-image: url(/img/Fax.svg);
+    background-image: url(./img/Fax.svg);
 }
 
 .footer-top_menus {
