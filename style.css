@@ -1,7 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 .main {
-    background-color: #FFF1F1;
-    height: 202px;
-    width: 100%;
+    background-color: #F9F9F9;
 }
 
 .logo {
@@ -174,19 +176,19 @@ span {
 }
 
 .footer-top_information-item:nth-child(1) a::before {
-   background-image: url(./img/Telephone.svg);
+   background-image: url(/img/Telephone.svg);
 }
 
 .footer-top_information-item:nth-child(2) a::before {
-    background-image: url(./img/Mail.svg);
+    background-image: url(/img/Mail.svg);
 }
 
 .footer-top_information-item:nth-child(3) a::before {
-    background-image: url(./img/Address.svg);
+    background-image: url(/img/Address.svg);
 }
 
 .footer-top_information-item:nth-child(4) a::before {
-    background-image: url(./img/Fax.svg);
+    background-image: url(/img/Fax.svg);
 }
 
 .footer-top_menus {
@@ -214,6 +216,105 @@ span {
 .menu-items_column li:last-child {
     margin-bottom: 0;
 }
+
+.thingsNeedToDo {
+    width: 1242px;
+    height: 484px;
+    margin: 0 auto;
+    background-image: url("img/plane.svg");
+    background-repeat: no-repeat;
+    background-position: 926px 12px;
+}
+
+.to_do {
+    color: #FA7436;
+}
+
+.thingsNeedToDo_title h2 {
+    text-align: center;
+    line-height: 52px;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+}
+
+.thingsNeedToDo_title p {
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto 63px auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.thingsNeedToDo_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thingsNeedToDo_cards h2 {
+    position: relative;
+    padding-top: 80px;
+}
+
+.card {
+    width: 397px;
+    height: 278px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid  rgba(102, 102, 102, 0.08);
+    padding: 45px 42px 40px 42px;
+}
+
+.main {
+    padding-top: 42px;
+    margin-bottom: 52px;
+}
+
+.thingsNeedToDo_card_signUp h2::before {
+    content: "";
+    height: 35px;
+    width: 51px;
+    position: absolute;
+    background-image: url("img/sign.svg");
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.thingsNeedToDo_card_signUp{
+    background-image: url("img/signline.svg");
+}
+
+.thingsNeedToDo_card_worth h2::before {
+    content: "";
+    height: 35px;
+    width: 51px;
+    position: absolute;
+    background-image: url("img/worth.svg");
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.thingsNeedToDo_card_worth {
+    background-image: url("img/worthline.svg");
+}
+
+.thingsNeedToDo_card_travel h2::before {
+    content: "";
+    height: 35px;
+    width: 51px;
+    position: absolute;
+    background-image: url("img/travel.svg");
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.thingsNeedToDo_card_travel {
+    background-image: url("img/travelline.svg");
+}
+
+
 
 
 
